@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:big_block\"}"]}}}}] at @s run summon husk ~ ~ ~ {Silent:1b,DeathLootTable:"null",PersistenceRequired:0b,Health:80f,CustomName:"{\"text\":\"KILLY BLOCK\",\"color\":\"dark_red\",\"bold\":true}",ArmorItems:[{},{},{},{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:1720}}],ArmorDropChances:[0.85F,0.85F,0.85F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:80},{Name:generic.movementSpeed,Base:1.1},{Name:generic.attackDamage,Base:8}]}
+
+kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:big_block\"}"]}}}}]

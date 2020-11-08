@@ -1,0 +1,1 @@
+tellraw @a {"text":"Lucky blocks datapack reloaded!","bold":true,"color":"yellow"}

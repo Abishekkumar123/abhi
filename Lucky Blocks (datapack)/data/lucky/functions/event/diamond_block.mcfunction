@@ -1,0 +1,9 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~20 ~ {BlockState:{Name:"minecraft:coal_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~22 ~ {BlockState:{Name:"minecraft:iron_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~24 ~ {BlockState:{Name:"minecraft:redstone_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~26 ~ {BlockState:{Name:"minecraft:gold_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~28 ~ {BlockState:{Name:"minecraft:lapis_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~30 ~ {BlockState:{Name:"minecraft:emerald_block"},Time:1}
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}] at @s run summon falling_block ~ ~32 ~ {BlockState:{Name:"minecraft:diamond_block"},Time:1}
+
+kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:diamond_block\"}"]}}}}]

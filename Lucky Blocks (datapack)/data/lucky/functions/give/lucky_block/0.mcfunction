@@ -1,0 +1,1 @@
+tellraw @s "Gave 0 [Lucky Block], NANI?"

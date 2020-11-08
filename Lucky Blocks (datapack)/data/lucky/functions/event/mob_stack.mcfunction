@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:mob_stack\"}"]}}}}] at @s run summon cow ~ ~ ~ {PersistenceRequired:0b,Passengers:[{id:"minecraft:sheep",PersistenceRequired:0b,Passengers:[{id:"minecraft:pig",PersistenceRequired:0b,Passengers:[{id:"minecraft:chicken",PersistenceRequired:0b,Passengers:[{id:"minecraft:pig",PersistenceRequired:0b,Passengers:[{id:"minecraft:sheep",PersistenceRequired:0b,Passengers:[{id:"minecraft:cow",PersistenceRequired:0b,Passengers:[{id:"minecraft:sheep",CustomNameVisible:0b,PersistenceRequired:0b,CustomName:"{\"text\":\"jeb_\"}"}]}]}]}]}]}]}]}
+
+kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:mob_stack\"}"]}}}}]

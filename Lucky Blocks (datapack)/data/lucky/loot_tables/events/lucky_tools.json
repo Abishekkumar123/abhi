@@ -1,0 +1,97 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky Sword\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:smite\",lvl:6s},{id:\"minecraft:bane_of_arthropods\",lvl:6s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky Helmet\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:respiration\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDLeast:441478,UUIDMost:446795,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDLeast:715832,UUIDMost:619167,Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky Chestplate\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDLeast:617862,UUIDMost:540451,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDLeast:787321,UUIDMost:676032,Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:golden_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky Leggings\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDLeast:617862,UUIDMost:540451,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDLeast:787321,UUIDMost:676032,Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky Boots\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:feather_falling\",lvl:6s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:depth_strider\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDLeast:985909,UUIDMost:357124,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDLeast:75055,UUIDMost:987047,Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Lucky PickSpadeAxe\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Pickaxe Efficency V\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"Fortune V\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"Sharpness V\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"Smite V\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"Haste L\\\",\\\"color\\\":\\\"dark_green\\\",\\\"italic\\\":false}\"]},HideFlags:1,Unbreakable:1b,CustomModelData:1721,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:fortune\",lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:cod",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Slappy Fish\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Knockback C\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]},HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:100s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10000,
+                    "name": "minecraft:salmon",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Unlucky Slappy Fish\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Knockback Nulla\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]},HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:0s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
