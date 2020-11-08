@@ -1,2 +1,0 @@
-give @s minecraft:armor_stand{EntityTag:{Small:1b},display:{Name:"{\"text\":\"Lucky Block\",\"color\":\"gold\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Do you dare?\",\"color\":\"gray\",\"italic\":false}"]},CustomModelData:1720,EntityTag:{Invisible:1b,Tags:["becomelucky"]}} 16
-tellraw @s "Gave 16 [Lucky Block]"

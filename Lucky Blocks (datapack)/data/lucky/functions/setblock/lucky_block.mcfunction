@@ -1,1 +1,0 @@
-execute at @s align x align y align z run function lucky:internal/sb_lucky_block

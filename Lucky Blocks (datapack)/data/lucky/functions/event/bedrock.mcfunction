@@ -1,4 +1,0 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:bedrock\"}"]}}}}] at @s run setblock ~ ~ ~ bedrock
-execute as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:bedrock\"}"]}}}}] at @s run setblock ~ ~1 ~ minecraft:oak_sign[rotation=8]{Text2:"{\"text\":\"Well there's\",\"color\":\"dark_red\",\"bold\":true}",Text3:"{\"text\":\"your problem\",\"color\":\"dark_red\",\"bold\":true}"} replace
-
-kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Lore:["{\"text\":\"event:bedrock\"}"]}}}}]
